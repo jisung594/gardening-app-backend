@@ -10,6 +10,7 @@ require 'rest-client'
 require 'json'
 
 Plant.destroy_all
+User.destroy_all
 
 # tree_data = RestClient.get('https://trefle.io/api/plants?token=dzhxS1ZtNnQyT1NnMDRxZEd3a2llZz09&page_size=50&complete_data&q=tree')
 # parsed_data = JSON.parse(tree_data)
@@ -1012,3 +1013,21 @@ plants.each do |plantObj|
 
   Plant.create(hash)
 end
+
+
+User.create(
+  username: "johnny845",
+  name: "Jonathan Choi",
+  city: "Boston"
+)
+
+User.create(
+  username: "martymar90",
+  name: "Marty Mar",
+  city: "Detroit"
+)
+User.create(
+  username: "GeorgeLikesHisChickenSpicy",
+  name: "George Costanza",
+  city: "New York"
+)

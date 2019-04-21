@@ -18,7 +18,11 @@ class Api::V1::AnswersController < ApplicationController
   private
 
   def answer_params
-    params.require(:answer).permit(:answer)
+    params.require(:answer).permit(
+      :answer_str,
+      :user_id,
+      :plant_id,
+      :question_id
+    )
   end
-end
 end

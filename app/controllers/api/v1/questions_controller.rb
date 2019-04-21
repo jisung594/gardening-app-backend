@@ -18,6 +18,6 @@ class Api::V1::QuestionsController < ApplicationController
   private
 
   def question_params
-    params.require(:question).permit(:question)
+    params.require(:question).permit(:question_str, :user_id, :plant_id)
   end
 end
