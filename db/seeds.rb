@@ -1001,8 +1001,7 @@ plants = [
       "growability" => 8,
       "plant_type" => "other"
     }
-  ]
-
+]
 
 plants.each do |plantObj|
   hash = {}
