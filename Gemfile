@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.3.3'
+ruby '2.6.0'
 
 gem 'rest-client', '~> 1.8'
 gem 'rb-readline', '~> 0.5.3'
