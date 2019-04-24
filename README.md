@@ -10,9 +10,6 @@ Gardening can be a tricky hobby to keep in the city. Environmental factors, such
 - [Ruby](https://www.ruby-lang.org/en/)
 - [PostgreSQL](https://www.postgresql.org/)
 
-<b>Other</b>
-- [Semantic UI](https://semantic-ui.com/)
-
 ## Installation Instructions
 1. Install gems
 ```
