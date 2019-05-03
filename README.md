@@ -25,3 +25,6 @@ rake db:seed
 ```
 rails s
 ```
+
+## Demo
+https://www.youtube.com/watch?v=Lj9H5poxgWY
